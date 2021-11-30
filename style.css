@@ -1,0 +1,88 @@
+html {
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0px 0px 0px 0px;
+}
+
+canvas {
+	position: absolute;
+	left: 0px;
+	display: block;
+	margin: -610px 0px 0px 0px;
+}
+
+.cords {
+	max-width: 100%;
+	padding: 20px;
+	position: absolute;
+	right: 0;
+	font-size: 50px;
+	font-weight: 1000;
+	border: 3px solid #C81069;
+	color: #C81069;
+}
+
+@media (min-width: 1247px) {
+	.cords {
+		top: 160px;
+	}
+}
+@media (max-width: 1246px) {
+	.cords {
+		top: 290px;
+		display: block;
+		max-width: 326px;
+		margin-top: -290px;
+	}
+}
+
+.touch {
+	display: block;
+	margin-top: 610px;
+	margin-left: 50%;
+}
+
+.button-1 {
+	position: relative;
+	top: 49px;
+	left: 5px;
+}
+.button-2 {
+	position: relative;
+	left: 107px;
+	top: -50px;
+}
+.button-3 {
+	position: relative;
+	left: 106px;
+	top: -50px;
+}
+.button-4 {
+	position: relative;
+	top: -100px;
+	left: 207px;
+}
+
+.button-1__btn {
+	width: 100px;
+	height: 50px;
+}
+.button-2__btn {
+	width: 100px;
+	height: 50px;
+}
+.button-3__btn {
+	width: 100px;
+	height: 50px;
+}
+.button-4__btn {
+	width: 100px;
+	height: 50px;
+}
